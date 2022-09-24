@@ -32,8 +32,19 @@
             <artifactId>spring-boot-devtools</artifactId>
             <scope>true</scope>
         </dependency>
-        <!--Swagger Api接口文档-->
+        <!--Swagger Api接口文档 三方-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-ui</artifactId>
+            <!--在引用时请在maven中央仓库搜索3.X最新版本号-->
+            <version>3.0</version>
+        </dependency>
 
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>3.0.0</version>
+        </dependency>
 
     </dependencies>
 
